@@ -8,19 +8,19 @@ export class Statistics extends Component {
         return(
             <StatisticsList>
                 <li>
-                    <span>Good:{good}</span>
+                    <p>Good:{good}</p>
                 </li>
                 <li>
-                    <span>Neutral:{neutral}</span>
+                    <p>Neutral:{neutral}</p>
                 </li>
                 <li>
-                    <span>Bad:{bad}</span>
+                    <p>Bad:{bad}</p>
                 </li>
                 <li>
-                    <span>Total feedback:{all}</span>
+                    <p>Total feedback:{all}</p>
                 </li>
                 <li>
-                    <span>Positive percentage:{percentage}%</span>
+                    <p>Positive percentage:{percentage}%</p>
                 </li>
             </StatisticsList>
         )

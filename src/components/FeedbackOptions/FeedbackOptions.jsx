@@ -4,8 +4,8 @@ import propTypes from 'prop-types'
 import { ListOptionItem } from "components/ListOptionItem/ListOptionItem";
 
 export class FeedbackOptions extends Component {
-    render()
-    {    const {options,handleClick} = this.props;
+    render(){ 
+    const {options,handleClick} = this.props;
     return(
     <ListOptions>
         {options.map(option=>(
