@@ -4,10 +4,10 @@ import { ListOptionsButton } from "components/FeedbackOptions/FeedbackOptions.st
 
 export class ListOptionItem extends Component{
     render(){
-        const {option,clickHandler} = this.props;
+        const {option,handleClick} = this.props;
         return(
             <li>
-                <ListOptionsButton type='button' onClick={clickHandler} name={option}>
+                <ListOptionsButton type='button' onClick={handleClick} name={option}>
                     {option}
                 </ListOptionsButton>
             </li>
@@ -17,5 +17,5 @@ export class ListOptionItem extends Component{
 
 ListOptionItem.propTypes = {
     option: propTypes.string.isRequired,
-    clickHandler: propTypes.func.isRequired,
+    handleClick: propTypes.func.isRequired,
 }
